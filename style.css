@@ -276,7 +276,7 @@ li {
 .logo {
     position: absolute;
     color: honeydew;
-    top: 9px;
+    top: 23px;
     left: 160px;
     font-size: 5rem;
     font-weight: 1;
@@ -292,7 +292,7 @@ nav .logo {
 }
   
 nav {
-	height: 8vh;
+	height: 12vh;
 	background: #000000;
 	z-index: 15;
 }
