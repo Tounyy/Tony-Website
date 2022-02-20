@@ -204,7 +204,7 @@ p {
 }
 
 form {
-	background: #fff;
+	background: rgb(252, 249, 249);
 	display: flex;
 	flex-direction: column;
 	padding: 2vw 4vw;
