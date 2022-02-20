@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"> 
     <title>My Website</title>
-</head>
+</head> 
 <body>
     <header>
         <div class="logo">Tony</div>
@@ -36,76 +36,21 @@
 
             <a href="https://github.com/Tounyy" class="icon icon-gitHub" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/></a>
 
-
           </div>
     </header> 
 
-    <section>
-      <div class="title">
-        <h1>Contact us</h1>
-      </div>
-      <div class="contact">
-        <div class="contact-form">
-          <form>
-            <div class="row">
-              <div class="input50">
-                <input type="text" placeholder="First Name" />
-              </div>
-              <div class="input50">
-                <input type="text" placeholder="Last Name" />
-              </div>
-            </div>
-            <div class="row">
-              <div class="input50">
-                <input type="text" placeholder="Email" />
-              </div>
-              <div class="input50">
-                <input type="text" placeholder="Subject" />
-              </div>
-            </div>
-            <div class="row">
-              <div class="input100">
-                <textarea placeholder="Message"></textarea>
-              </div>
-            </div>
-            <div class="row">
-              <div class="input100">
-                <input type="submit" value="Send" />
-              </div>
-            </div>
-          </form>
-        </div>
-
-    <div class="contact-info">
-      <div class="info-box">
-        <img class="img-3" src="img/adr.png"/>
-        <div class="contact-icon" alt=""></div>
-        <div class="details">
-          <h4>Address</h4>
-          <p>Michelská 1/7, 140 00 Praha 4, Prague, Czech Republic</p>
-        </div>
-      </div>
-      <div class="info-box">
-        <img class="img-2" src="img/gmail.png"/> 
-        <div class="contact-icon" alt=""></div>
-        <div class="details">
-          <h4>Email</h4>
-          <a href="mailto:tonyluu125576@gmail.com">tonyluu125576@gmail.com</a>
-        </div>
-      </div>
-      <div class="info-box">
-        <img class="img-2" src="img/hpone.png"/> 
-        <div class="contact-icon" alt=""></div>
-        <div class="details">
-          <h4>Call</h4>
-          <a href="tel:+420773468601">+420 773 468 601</a>
-        </div>
-      </div>
+    <div class="con">
+      <form onsubmit="sendEmail(); reset(); return false;">
+        <h3>Contact Us</h3>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="phone" placeholder="Phone Number" required>
+        <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+        <button type="submit">Send</button>
+      </form>        
     </div>
-  </div>
-</section>
-
+    
     <script src="./app.js"></script>
 
+  </html>
 </body>
-</html>
